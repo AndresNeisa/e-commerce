@@ -1,0 +1,425 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+nav {
+    width: 100%;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-wrapper{
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 3.2rem;
+}
+
+nav ul a{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+header{
+    background-image: url("/Images/Hero-bg-01.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 24.5rem;
+    position: relative;
+}
+
+.wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header-section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30rem;
+    z-index: 1;
+}
+
+.header-section-1 h2{
+    width: 33.1rem;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #2D2D2D;
+}
+
+.header-section-1 a{
+    background-color: #FF8400;
+    border-radius: 1rem;
+    padding: 0.75em 1.5em;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.header-section-1 h3{
+    background-color: #FFF;
+    border-radius: 0.7rem;
+    padding: 0.5em;
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: #E24810;
+    height: fit-content;
+}
+
+.discount{
+    position: relative;
+}
+
+.discount img{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+.header-section-2{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carrousel-images{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(80%);
+}
+
+.main-model{
+    transform: translateY(-20%);
+    border: solid 0.5rem #FFF1E2;
+}
+
+.sec-model{
+    opacity: 80%;
+}
+
+.carrousel-banner{
+    background-color: #FFF1E2;
+    border-radius: 2rem;
+    color: #2D2D2D;
+    text-align: center;
+    box-shadow: 0 0.3rem 0.6rem -0.3rem #000;
+    transform: translateY(50%);
+}
+
+.carrousel-banner h2{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 7rem;
+    text-transform: uppercase;
+}
+
+.carrousel-banner p{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 7rem;
+    letter-spacing: 1rem;
+    padding-bottom: 6.8rem;
+}
+
+.carousel-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.6rem;
+    padding-bottom: 2rem;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF8400;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 10rem;
+}
+
+.arrow a{
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.carrousel-banner ul{
+    margin: auto 2.6rem;
+}
+
+.carrousel-banner li{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 0 0.4rem;
+}
+
+.carrousel-banner li a i{
+    color: #EDC886;
+}
+
+.carrousel-banner li a .selected{
+    color: #FF8400;
+}
+
+.logo {
+    width: 12.1rem;
+    height: 12.1rem;
+    background-color: #FFF;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-01{
+    text-align: center;
+    color: #2D2D2D;
+    background-color: #FFF7EE;
+    padding-bottom: 11.8rem;
+}
+
+.section-01 h2{
+    padding-top: 25.7rem;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.product-description{
+    display: flex;
+    margin-top: 6rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.product-image{
+    background-image: url("/Images/Product-01.jpg");
+    background-repeat: no-repeat;
+    background-size: covers;
+    margin-right: 1.25rem;
+    border-radius: 1.5rem;
+}
+
+.product-image a{
+    float: right;
+    font-size: 4.3rem;
+    padding: 1.5rem 2.3rem;
+    background-color: #FFF1E2;
+    border-radius: 0 1.5rem;
+    color: #E24810;
+}
+
+.product-description h4{
+    font-size: 3.9rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.product-details{
+    text-align: left;
+}
+
+.product-details span{
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-left: 3rem;
+}
+
+.colors{
+    display: flex;
+    align-content: center;
+}
+
+
+.product-details-opt {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.product-details-opt .size, 
+.product-details-opt .quantity {
+    background-color: #FFF;
+    box-shadow: 0 0.3rem 0.5rem -0.3rem #000;
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 0.625em 1.25em;
+    display: flex;
+    margin-right: 1.25em;
+    align-items: center;
+}
+
+.product-details-opt .quantity p{
+    margin: 0 1.25em;
+}
+
+.button{
+    font-size: 2.4rem;
+    color: #FFF;
+    background-color: #E24810;
+    padding: 0.625em 1.25em;
+    margin: 1.25rem 0;
+    display: inline-block;
+    box-shadow: 0 0.3rem 0.5rem -0.3rem #000;
+}
+
+.product-details h3{
+    font-size: 2.4rem;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+}
+
+.product-details .des,
+.product-details li{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+.product-details .des{
+    margin-bottom: 0.625rem;
+}
+
+.product-details ul{
+    padding-left: 5rem;
+    margin-bottom: 0.625rem;
+}
+
+.product-thumbnail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.product-thumbnail img{
+    border-radius: 0.5rem;
+}
+
+.section-02{
+    background-color: #FFF1F1;
+    padding-bottom: 12rem;
+}
+
+.discount-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12.1rem;
+    padding-bottom: 6rem;
+}
+
+.sale-card{
+    background-color: #FFDCDC;
+    color: #2D2D2D;
+    font-size: 1.6rem;
+    border-radius: 0.3125em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale-card-info{
+    padding-left: 1em;
+    border-radius: 0 50rem 50rem 0;
+    background-color:  #ffd5d5;
+    margin: 1.875em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 26.6rem;
+}
+
+.sale-card h4{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.sale-card a{
+    color: inherit;
+    padding: 0.95rem 1.875em;
+    border: solid 0.2em #FFF;
+    border-radius: 0.56em;
+    display: inline;
+}
+
+.sales-shipping{
+    width: 100%;
+    background-color: #EF9899;
+}
+
+.sales-shipping .wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.shipping-card{
+    display: flex;
+    margin: 8rem 0;
+    align-items: center;
+    color: #FFF;
+    font-size: 2rem;
+    line-height: 3.4rem;
+}
+
+.shipping-card i{
+    color: #E24810;
+    font-size: 4.6rem;
+    width: 10.3rem;
+    height: 10.3rem;
+    border-radius: 5rem;
+    margin-right: 3rem;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shipping-card h4{
+    font-weight: 600;
+    line-height: 3.4rem;
+}
+
+.shipping-card p{
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+@media (max-width: 992px) { 
+    html {
+        font-size: 50%;
+    }
+}
