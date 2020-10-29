@@ -13,6 +13,7 @@ html{
 
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #2D2D2D;
 }
  
 nav {
@@ -58,6 +59,7 @@ header{
 .wrapper{
     width: 60%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .header-section-1{
@@ -71,9 +73,8 @@ header{
 .header-section-1 h2{
     width: 33.1rem;
     margin-bottom: 3rem;
-    font-size: 6rem;
-    font-weight: 700;
     color: #2D2D2D;
+    text-transform: none;
 }
 
 .header-section-1 a{
@@ -136,13 +137,6 @@ header{
     text-align: center;
     box-shadow: 0 0.3rem 0.6rem -0.3rem #000;
     transform: translateY(50%);
-}
-
-.carrousel-banner h2{
-    font-size: 6rem;
-    font-weight: 700;
-    line-height: 7rem;
-    text-transform: uppercase;
 }
 
 .carrousel-banner p{
@@ -209,12 +203,17 @@ header{
     color: #2D2D2D;
     background-color: #FFF7EE;
     padding-bottom: 11.8rem;
+    padding-top: 25.7rem;
+}
+
+h2{
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .section-01 h2{
-    padding-top: 25.7rem;
-    font-size: 6rem;
-    font-weight: 700;
+    text-transform: none;
 }
 
 .product-description{
@@ -415,7 +414,190 @@ header{
 .shipping-card p{
     font-size: 2rem;
     font-weight: 400;
+}
 
+.section-03{
+    background-color: #F2DFCE;
+}
+
+.horizontal-wrapper{
+    padding: 12rem 0;
+}
+
+.top-products{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12rem;
+}
+
+.top-product-card .image,
+.popular-card .image{
+    position: relative;
+    background-color: #FFF;
+}
+
+.top-product-card .image img,
+.popular-card .image{
+    width: 100%;
+}
+
+.top-product-card .image div{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    display: none;
+}
+
+.card-description{
+    padding: 2.5rem 0;
+    background-color: #fff;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #2D2D2D;
+}
+
+.card-description h4{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.card-description h4:last-child{
+    color: #E24810;
+    margin-bottom: 0;
+}
+
+
+.card-buttons{
+    background-color: #fff;
+    display: flex;
+    font-size: 2.4rem;
+    line-height: 4.4rem;
+}
+.card-buttons a{
+    width: 50%;
+    border: solid rgba(112, 112, 112, 0.59) 0.1rem;
+}
+
+.section-04{
+    background-color: #ECD6AA;
+}
+
+.most-popular{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 11.2rem;
+}
+
+.popular-card .image a{
+    position: absolute;
+    font-size: 4.3rem;
+    background-color: #FFF1E2;
+    border-radius: 0 1.5rem;
+    color: #E24810;
+    display: none;
+}
+
+.most-popular .rate{
+    color: #FF8400;
+    padding-top: 1rem;
+}
+
+.most-popular .card-buttons a{
+    width: 100%;
+}
+
+.section-05{
+    background-color: #E8E7E2;
+}
+
+.blog{
+    display: flex;
+    color: #2D2D2D;
+    padding-top: 6rem;
+}
+
+.content{
+    background-color: #FFF;
+    flex: 1;
+    padding: 6rem 6.5rem 7.9rem 3rem;
+    text-align: left;
+}
+
+.content .date{
+    color: #707070;
+    padding-bottom: 2.3rem;
+    font-size: 2rem;
+}
+
+.content h4{
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding-bottom: 3.6rem;
+}
+
+.content p{
+    font-size: 1.8rem;
+    padding-bottom: 6rem;
+    line-height: 2.8rem;
+}
+
+.content .button{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #FFF1E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    padding: 6rem 0;
+}
+
+.footer div{
+    width: 25%;
+    text-align: left;
+    padding-right: 12rem;
+}
+
+.footer li{
+    list-style: none;
+    line-height: 2.4rem;
+}
+
+.footer h4{
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media i{
+    height: 2.9rem;
+    width: 2.9rem;
+    border-radius: 10rem 10rem;
+    background-color: #fff;
+    margin-right: 1rem;
+    box-shadow: 0 0 0.6rem -0.3rem #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1rem;
 }
 
 @media (max-width: 992px) { 
