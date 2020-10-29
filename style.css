@@ -77,6 +77,10 @@ header{
     text-transform: none;
 }
 
+.hero-text{
+    text-align: left;
+}
+
 .header-section-1 a{
     background-color: #FF8400;
     border-radius: 1rem;
@@ -98,6 +102,7 @@ header{
 
 .discount{
     position: relative;
+    transform: translateY(50%);
 }
 
 .discount img{
@@ -119,6 +124,10 @@ header{
     display: flex;
     justify-content: space-between;
     transform: translateY(80%);
+}
+
+.carrousel-images img{
+    max-width: 30%;
 }
 
 .main-model{
@@ -325,6 +334,7 @@ h2{
 
 .product-thumbnail img{
     border-radius: 0.5rem;
+    max-width: 22%;
 }
 
 .section-02{
@@ -346,6 +356,7 @@ h2{
     border-radius: 0.3125em;
     display: flex;
     justify-content: space-between;
+    max-width: 47.5%;
 }
 
 .sale-card-info{
@@ -430,6 +441,11 @@ h2{
     margin-top: 12rem;
 }
 
+.top-product-card,
+.popular-card{
+    max-width: 30.5%;
+}
+
 .top-product-card .image,
 .popular-card .image{
     position: relative;
@@ -437,7 +453,7 @@ h2{
 }
 
 .top-product-card .image img,
-.popular-card .image{
+.popular-card .image img{
     width: 100%;
 }
 
@@ -447,6 +463,7 @@ h2{
     left: 10%;
     display: none;
 }
+
 
 .card-description{
     padding: 2.5rem 0;
@@ -515,6 +532,10 @@ h2{
     display: flex;
     color: #2D2D2D;
     padding-top: 6rem;
+}
+
+.blog img{
+    max-width: 50%;
 }
 
 .content{
@@ -600,8 +621,8 @@ footer{
     font-size: 1rem;
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 1300px) { 
     html {
-        font-size: 50%;
+        font-size: 40%;
     }
 }
