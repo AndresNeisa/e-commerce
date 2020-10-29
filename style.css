@@ -48,7 +48,7 @@ nav ul a{
 }
 
 header{
-    background-image: url("../Images/Hero-bg-01.jpg");
+    background-image: url("./Images/Hero-bg-01.jpg");
     background-position-x: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -236,7 +236,7 @@ h2{
 }
 
 .product-image{
-    background-image: url("../Images/Product-01.jpg");
+    background-image: url("./Images/Product-01.jpg");
     background-repeat: no-repeat;
     background-size: covers;
     margin-right: 1.25rem;
