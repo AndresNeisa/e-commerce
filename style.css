@@ -48,7 +48,7 @@ nav ul a{
 }
 
 header{
-    background-image: url("./Images/Hero-bg-01.jpg");
+    background-image: url("./Images/Hero-bg-02.jpg");
     background-position-x: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -126,17 +126,19 @@ header{
     transform: translateY(80%);
 }
 
+.carrousel-images a{
+    display: contents;
+}
+
 .carrousel-images img{
     max-width: 30%;
+    opacity: 80%;
 }
 
-.main-model{
+.carrousel-images .main-model{
     transform: translateY(-20%);
     border: solid 0.5rem #FFF1E2;
-}
-
-.sec-model{
-    opacity: 80%;
+    opacity: 1;
 }
 
 .carrousel-banner{
@@ -165,9 +167,6 @@ header{
 }
 
 .arrow{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #FF8400;
     height: 6.4rem;
     width: 6.4rem;
@@ -177,6 +176,11 @@ header{
 .arrow a{
     color: #FFF;
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .carrousel-banner ul{
